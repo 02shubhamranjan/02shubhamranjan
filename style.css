@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.heading_div{
+margin-top: 46px !important;
+display: flex;
+align-items: baseline;
+justify-content: center;
+}
+
+.main_heading{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #222f3e;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px !important;
+}
+
+.card-img-top{
+    position: relative;
+    /* width: 59% !important; */
+    left: 28%;
+    max-width: 44% !important;
+    width: 40% !important;
+}
+
+.main_card_div{
+    min-width: 20vw !important;
+    width: 50vw;
+    max-width: 75vw;
+    height: 62vh !important;
+    max-height: 63vh !important;
+    min-height: 55vh !important;
+}   
+.btn_div{
+    margin-top: 21px !important;
+}
+
+#question{
+text-align: center;
+margin: 14px 0;
+font-size: 29px;
+text-transform: capitalize;
+color: #222f3e;
+font-family: ui-sans-serif;
+}
+label{
+    font-family: ui-serif;
+    font-size: 21px;
+    margin-left: 5px;
+}
+.alert{
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.questions_left{
+    font-size: 20px;
+    font-family: ui-serif;
+    color:#222f3e;
+}
+
+#prvsBtn{
+    display: none;
+}
